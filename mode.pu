@@ -1,0 +1,14 @@
+@startuml
+title Set Mode Procedure
+:Determine if your receiver has an external or internal learn button.\nIf there is no external learn button, remove the lid on the receiver using a #1 phillips screwdriver. \n [[rx_components.png Click here for help identifying the learn button.]];
+:Power off the receiver by disconnecting the power cable.;
+:Power the receiver back on by plugging in the power cable.;
+while (Does the light on the receiver flash exactly 3 times a few seconds after powering up \n (or immediately if learn button is held down)?) is (No)
+    :Power off the receiver by disconnecting the power cable.;
+    :Press and hold the learn button down.;
+    :While continuing to hold the learn button down, power the receiver back on by plugging in the power cable.;
+endwhile (Yes)
+:Release the learn button if pressed and verify system operation.;
+:If removed for access to internal learn button, replace lid on receiver.;
+:Done;
+@enduml

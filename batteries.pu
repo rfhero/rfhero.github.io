@@ -1,0 +1,20 @@
+@startuml
+title Check Batteries
+if (Does light on transmitter flash when pushing ANY button?) then (Yes)
+    if (Does light flash rapidly several times or slowly 3 times?) then (Rapidly)
+    else (Slowly)
+        :Replace Batteries;
+    endif
+else (No)
+    :Replace batteries;
+    if (Does light on transmitter flash when pushing ANY button?) then (Yes)
+    else (No)
+        :Verify battery orientation;
+        if (Does light on transmitter flash when pushing ANY button?) then (Yes)
+        else (No)
+            :[[http://rfhero.com/request-rma.php RMA]];
+        endif
+    endif
+endif
+:Done;
+@enduml

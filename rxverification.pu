@@ -1,0 +1,51 @@
+@startuml
+title Receiver Verification Procedure
+:Power off the receiver by disconnecting the power cable.;
+:Power the receiver back on by plugging in the power cable.;
+if (Does the power light on the receiver turn on?) then (Yes)
+else (No)
+    :[[powersupply.html Check power supply]];
+    if (Is power supply OK?) then (Yes)
+        :[[http://rfhero.com/request-rma.php RMA]];
+        :Done;
+        stop
+    else
+        :[[https://www.rfhero.com/store/index.php?route=product/search&search=power%20supply Replace AC Adaptor]];
+    endif
+
+endif
+while (Does the status light on the receiver flash exactly 3 times\n a few seconds after powering up?) is (No)
+    if (Does the status light flash at all\n a few seconds after powering up?) then (Yes)
+        :[[mode.html Follow Set Mode Procedure]];
+    else (No)
+        :[[http://rfhero.com/request-rma.php RMA]];
+        :Done;
+        stop
+    endif
+endwhile (Yes)
+:Press OFF button on transmitter.;
+if (Does status light on receiver blink <color:green>GREEN</color>?) then (Yes)
+else (No)
+    :[[learn.html Follow Pairing Procedure]];
+endif
+if (Does system respond properly to button presses on transmitter?) then (Yes)
+    :Done;
+    stop
+else (No)
+    :Using a #1 Phillips screwdriver, remove the lid on the receiver.;
+    if (Do the LED's for both relays light when pressing the material button?\n[[rx_components.png Click here for help locating the LEDs.]]) then (Yes)
+        :[[fusetest.html Test the Fuses]];
+        if (Are the fuses OK?) then (Yes)
+            :[[http://rfhero.com/request-rma.php RMA]];
+            stop
+        else (No)
+            :Replace fuses. [[https://www.rfhero.com/store/index.php?route=product/search&search=fuse (Order spare fuses)]];
+            stop
+        endif
+    else (No)
+        :[[http://rfhero.com/request-rma.php RMA]];
+        stop
+    endif
+endif
+
+@enduml

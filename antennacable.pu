@@ -1,0 +1,19 @@
+@startuml
+title Antenna Cable Test
+:Visually inspect the antenna and antenna cable for damage.;
+if (Is there any obvious damage?) then (Yes)
+else (No)
+    :Remove the antenna mast from the magnetic base and \n disconnect the cable from the receiver.;
+    :Using a continuity meter or equivalent, test continuity \n between the mast stud on the magnetic base and the center pin \n on the connector at the end of the cable.;
+    if (Is continuity good?) then (Yes)
+        :Test for continuity between the center pin of the connector \n and the outside cuff.;
+        if (Is there continuity?) then (Yes)
+        else (No)
+            :[[http://rfhero.com/request-rma.php RMA]];
+            stop
+        endif
+    else (No)
+    endif
+endif 
+:[[https://www.rfhero.com/store/index.php?route=product/search&search=antenna Replace antenna]];
+@enduml

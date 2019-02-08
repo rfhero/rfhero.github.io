@@ -1,0 +1,17 @@
+@startuml
+title Button Troubleshooting
+if (Does light on transmitter flash when pushing button?) then (Yes)
+    if (Does light flash rapidly several times or slowly 3 times?) then (Rapidly)
+        :Troubleshoot Communications *TBD*;
+    else (Slowly)
+        :Replace Batteries;
+    endif
+else (No)
+    if (Does light on transmitter flash when pushing OTHER button?) then (Yes)
+        :[[http://rfhero.com/request-rma.php RMA]];
+    else (No)
+        :[[batteries.html Check Batteries]];
+    endif
+endif
+:Done;
+@enduml

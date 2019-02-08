@@ -1,0 +1,13 @@
+@startuml
+title Fuse Test
+:Using a #1 Phillips screwdriver, remove the lid on the receiver.;
+:Locate the fuses for the relays, spare fuse, and fuse tester LED.\n[[rx_components.png Click here for help locating these components.]];
+:Remove the fuse to be tested and the spare fuse.;
+:Place the fuse to be tested into the spare fuse socket and observe the fuse tester LED.;
+if (Does the LED light?) then (Yes)
+    :Fuse is good;
+else (No)
+    :Replace fuse with spare. [[https://www.rfhero.com/store/index.php?route=product/search&search=fuse (Order spare fuses)]];
+endif
+:Done;
+@enduml
