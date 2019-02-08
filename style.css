@@ -1,0 +1,13 @@
+body
+    {
+    background-color: powderblue;
+    }
+p
+    {
+    margin: 0;
+    font-size: calc(2vw + 1.5vh);
+    }
+a
+    {
+    text-decoration: none;
+    }
