@@ -15,5 +15,5 @@ else (No)
     else (No)
     endif
 endif 
-:[[https://www.rfhero.com/store/index.php?route=product/search&search=antenna Replace antenna]];
+:[[https://www.rfhero.net/accessories Replace antenna]];
 @enduml

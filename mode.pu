@@ -1,6 +1,6 @@
 @startuml
 title Set Mode Procedure
-:Determine if your receiver has an external or internal learn button.\nIf there is no external learn button, remove the lid on the receiver using a #1 phillips screwdriver. \n [[rx_components.png Click here for help identifying the learn button.]];
+:Determine if your receiver has an external or internal learn button.\nIf there is no external learn button, remove the lid on the receiver using a #1 phillips screwdriver. \n [[rx_components.jpg Click here for help identifying the learn button.]];
 :Power off the receiver by disconnecting the power cable.;
 :Power the receiver back on by plugging in the power cable.;
 while (Does the light on the receiver flash exactly 3 times a few seconds after powering up \n (or immediately if learn button is held down)?) is (No)

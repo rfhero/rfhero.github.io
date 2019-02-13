@@ -10,7 +10,7 @@ else (No)
         :Done;
         stop
     else
-        :[[https://www.rfhero.com/store/index.php?route=product/search&search=power%20supply Replace AC Adaptor]];
+        :[[https://www.rfhero.net/accessories Replace AC Adaptor]];
     endif
 
 endif
@@ -33,13 +33,13 @@ if (Does system respond properly to button presses on transmitter?) then (Yes)
     stop
 else (No)
     :Using a #1 Phillips screwdriver, remove the lid on the receiver.;
-    if (Do the LED's for both relays light when pressing the material button?\n[[rx_components.png Click here for help locating the LEDs.]]) then (Yes)
+    if (Do the LED's for both relays light when pressing the material button?\n[[rx_components.jpg Click here for help locating the LEDs.]]) then (Yes)
         :[[fusetest.html Test the Fuses]];
         if (Are the fuses OK?) then (Yes)
             :[[http://rfhero.com/request-rma.php RMA]];
             stop
         else (No)
-            :Replace fuses. [[https://www.rfhero.com/store/index.php?route=product/search&search=fuse (Order spare fuses)]];
+            :Replace fuses. [[https://www.rfhero.net/accessories (Order spare fuses)]];
             stop
         endif
     else (No)

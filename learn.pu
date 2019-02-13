@@ -1,6 +1,6 @@
 @startuml
 title Pairing Procedure
-:Determine if your receiver has an external or internal learn button.\nIf there is no external learn button, remove the lid on the receiver using a #1 phillips screwdriver.\n[[rx_components.png Click here for help identifying the learn button.]];
+:Determine if your receiver has an external or internal learn button.\nIf there is no external learn button, remove the lid on the receiver using a #1 phillips screwdriver.\n[[rx_components.jpg Click here for help identifying the learn button.]];
 :Cycle power on the receiver by disconnecting the power cord then plugging it back in.;
 :Wait 10 seconds then push and hold down the learn button on the receiver.;
 :While continuing to hold the learn button down, press any button on the transmitter.;

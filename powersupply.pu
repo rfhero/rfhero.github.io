@@ -9,6 +9,6 @@ else (No)
     else (No)
     endif
 endif
-:[[https://www.rfhero.com/store/index.php?route=product/search&search=power%20supply Replace AC Adaptor]];
+:[[https://www.rfhero.net/accessories Replace AC Adaptor]];
 @enduml
 add inspect of cable
