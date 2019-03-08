@@ -8,7 +8,7 @@ if (Does light on transmitter flash when pushing button?) then (Yes)
     endif
 else (No)
     if (Does light on transmitter flash when pushing OTHER button?) then (Yes)
-        :[[http://rfhero.com/request-rma.php RMA]];
+        :[[http://rfhero.com/request-rma.php Send for repair (RMA)]];
     else (No)
         :[[batteries.html Check Batteries]];
     endif

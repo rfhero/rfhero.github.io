@@ -4,7 +4,7 @@ if (Visually inspect the power supply and cables.  Is there any obvious damage?)
 else (No)
     :Unplug the barrel connector of the AC adaptor from the receiver.\nPlug the AC adaptor into a working AC outlet.\nUsing a voltage meter, measure the DC voltage between the center contact and outer contact of the barrel connector.;
     if (Is the voltage read at least 12V?) then (Yes)
-        :[[http://rfhero.com/request-rma.php{Click here to go to the RMA page.}Please RMA the receiver]];
+        :[[http://rfhero.com/request-rma.php{Click here to go to the Send for repair (RMA) page.}Please Send for repair (RMA) the receiver]];
         stop
     else (No)
     endif

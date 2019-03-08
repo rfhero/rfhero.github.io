@@ -12,7 +12,7 @@ else (No)
         :Verify battery orientation;
         if (Does light on transmitter flash when pushing ANY button?) then (Yes)
         else (No)
-            :[[http://rfhero.com/request-rma.php RMA]];
+            :[[http://rfhero.com/request-rma.php Send for repair (RMA)]];
         endif
     endif
 endif

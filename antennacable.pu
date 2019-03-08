@@ -9,7 +9,7 @@ else (No)
         :Test for continuity between the center pin of the connector \n and the outside cuff.;
         if (Is there continuity?) then (Yes)
         else (No)
-            :[[http://rfhero.com/request-rma.php RMA]];
+            :[[http://rfhero.com/request-rma.php Send for repair (RMA)]];
             stop
         endif
     else (No)
