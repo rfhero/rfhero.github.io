@@ -2,7 +2,7 @@
 title Button Troubleshooting
 if (Does light on transmitter flash when pushing button?) then (Yes)
     if (Does light flash rapidly several times or slowly 3 times?) then (Rapidly)
-        :Troubleshoot Communications *TBD*;
+        :[[rxverification.html Receiver Verification]];
     else (Slowly)
         :Replace Batteries;
     endif
