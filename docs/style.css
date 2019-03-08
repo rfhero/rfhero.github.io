@@ -11,3 +11,8 @@ a
     {
     text-decoration: none;
     }
+td
+    {
+    margin: 0;
+    font-size: calc(2vw + 1.5vh);
+    }
